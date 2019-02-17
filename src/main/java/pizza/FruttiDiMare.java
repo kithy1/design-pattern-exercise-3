@@ -1,14 +1,12 @@
 package pizza;
 
-import java.util.Arrays;
 import java.util.List;
 
-public class CapriciosaPizza extends Pizza {
+public class FruttiDiMare extends Pizza {
 
 
-
-    public CapriciosaPizza(double cost, List<String> components) {
-        super(cost,components,PizzaType.CAPRICIOSA);
+    public FruttiDiMare(double cost, List<String> components) {
+        super(cost,components,PizzaType.FRUTTIDIMARE);
     }
 
 //    public double getCost() {
@@ -26,18 +24,15 @@ public class CapriciosaPizza extends Pizza {
 //    public void setComponents(List<String> components) {
 //        this.components = components;
 //    }
-//
 //    public void showPizzaInfo(){
 //        System.out.println(this.toString());
 //    }
 //
 //    @Override
 //    public String toString() {
-//        return "CapriciosaPizza{" +
+//        return "FruttiDiMare{" +
 //                "cost=" + cost +
 //                ", components=" + components +
 //                '}';
 //    }
-
-
 }
